@@ -7,7 +7,7 @@ This document is meant to anyone looking to build the Java bindings from source,
 Maven is the build tool used by the project. Maven version of 3.8 or higher is recommended. Make sure the **mvn** 
 is available on the command path.
 
-The project builds to Java version 11 target so make sure that a JDK at version 11 or newer is installed.
+The project builds to Java version 8 target so make sure that a JDK at version 11 or newer is installed.
 
 ### Setting up location of native shared libraries
 The property **native.libs.location** in pom.xml may need to be set:
